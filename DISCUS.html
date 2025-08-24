@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICUS- criado por quem vive a escola</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    <header class="header">
+        <nav class="navbar">
+           <div class="time-toggle">
+            <input type="checkbox" id="darkModeToggle" class="toggle-checkbox">
+              <label for="darkModeToggle" class="toggle-label">
+                    <span class="toggle-icon sun"><i class="fas fa-sun"></i></span>
+                    <span class="toggle-icon moon"><i class="fas fa-moon"></i></span>
+                    <span class="toggle-ball"></span>
+                </label>
+            </div>
+
+            <div class="nav-brand">
+                 <img src="img/DISCUS.png" alt="Perfil" class="profile-img">
+
+                <span>DISCUS</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="user-profile">
+             <img src="img/ChatGPT Image 11 de jul. de 2025, 11_18_55.png" alt="Perfil" class="profile-img">
+                <span>Matheus.S</span>
+                <div class="points-badge">
+                    <i class="fas fa-star"></i>
+                    <span>1,250 pts</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="section active">
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Transforme sua <span class="highlight">Educação</span>
+                    <br>com Inteligência e Inovação
+                </h1>
+                <p class="hero-description">
+                    Uma plataforma completa que complementa sua educação formal com reforço personalizado, 
+                    gestão de bem-estar e desenvolvimento de habilidades socioemocionais.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="showSection('dashboard')">
+                        <i class="fas fa-rocket"></i>
+                        Começar Agora
+                    </button>
+                    <button class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Ver Demo
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-cards">
+                    <div class="card-float card-1">
+                        <i class="fas fa-book"></i>
+                        <span>Materiais Completos</span>
+                    </div>
+                    <div class="card-float card-2">
+                        <i class="fas fa-brain"></i>
+                        <span>IA Personalizada</span>
+                    </div>
+                    <div class="card-float card-3">
+                        <i class="fas fa-users"></i>
+                        <span>Comunidade Ativa</span>
+                    </div>
+                </div>
+                <div class="card-float card-4">
+            <i class="fas fa-clock"></i>
+            <span>Gestão de Tempo</span>
+        </div>
+        <div class="card-float card-5">
+            <i class="fas fa-heart"></i>
+            <span>Bem-estar</span>
+        </div>
+        <div class="card-float card-6">
+            <i class="fas fa-chart-line"></i>
+            <span>Progresso</span>
+        </div>
+            </div>
+        </div>
+
+        <div class="features-preview">
+            <h2>Por que escolher o DISCUS   ?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Materiais Completos</h3>
+                    <p>Biblioteca rica com vídeos, resumos e exercícios interativos organizados por disciplina.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Tutor Virtual IA</h3>
+                    <p>Chatbot inteligente que responde dúvidas em tempo real com explicações personalizadas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Gestão de Tempo</h3>
+                    <p>Ferramentas para organizar rotinas intensas com foco no bem-estar mental.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Habilidades Socioemocionais</h3>
+                    <p>Desenvolvimento de soft skills essenciais para a vida pessoal e profissional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dashboard" class="section">
+        <div class="dashboard-header">
+            <h1>Seu Painel de Aprendizado</h1>
+            <div class="dashboard-stats">
+                <div class="stat-card">
+                    <i class="fas fa-fire"></i>
+                    <div>
+                        <span class="stat-number">7</span>
+                        <span class="stat-label">Dias de Sequência</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-trophy"></i>
+                    <div>
+                        <span class="stat-number">12</span>
+                        <span class="stat-label">Conquistas</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-chart-line"></i>
+                    <div>
+                        <span class="stat-number">85%</span>
+                        <span class="stat-label">Progresso Geral</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-grid">
+            <div class="module-card" onclick="openModule('materials')">
+                <div class="module-header">
+                    <i class="fas fa-books"></i>
+                    <h3>Materiais Didáticos</h3>
+                </div>
+                <p>Acesse conteúdos completos e organizados por disciplina</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 75%"></div>
+                </div>
+                <span class="progress-text">75% Concluído</span>
+            </div>
+
+            <div class="module-card" onclick="openModule('tutor')">
+                <div class="module-header">
+                    <i class="fas fa-robot"></i>
+                    <h3>Tutor Virtual</h3>
+                </div>
+                <p>Tire suas dúvidas com nossa IA especializada</p>
+                <div class="activity-indicator">
+                    <span class="status-dot active"></span>
+                    <span>Online agora</span>
+                </div>
+            </div>
+
+            <div class="module-card" onclick="openModule('time')">
+                <div class="module-header">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Gestão de Tempo</h3>
+                </div>
+                <p>Organize sua rotina e mantenha o equilíbrio</p>
+                <div class="next-task">
+                    <span>Próxima: Matemática em 30min</span>
+                </div>
+            </div>
+
+            <div class="module-card" onclick="openModule('skills')">
+                <div class="module-header">
+                    <i class="fas fa-users"></i>
+                    <h3>Habilidades Sociais</h3>
+                </div>
+                <p>Desenvolva soft skills para sua carreira</p>
+                <div class="skill-badges">
+                    <span class="badge">Comunicação</span>
+                    <span class="badge">Liderança</span>
+                </div>
+            </div>
+
+            <div class="module-card" onclick="openModule('community')">
+                <div class="module-header">
+                    <i class="fas fa-comments"></i>
+                    <h3>Comunidade</h3>
+                </div>
+                <p>Conecte-se com outros estudantes</p>
+                <div class="community-stats">
+                    <span>156 membros online</span>
+                </div>
+            </div>
+
+            <div class="module-card" onclick="openModule('wellness')">
+                <div class="module-header">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Bem-estar</h3>
+                </div>
+                <p>Cuide da sua saúde mental e física</p>
+                <div class="wellness-indicator">
+                    <span class="mood-emoji">😊</span>
+                    <span>Humor: Ótimo</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="quick-actions">
+            <h3>Ações Rápidas</h3>
+            <div class="actions-grid">
+                <button class="action-btn">
+                    <i class="fas fa-plus"></i>
+                    Nova Tarefa
+                </button>
+                <button class="action-btn">
+                    <i class="fas fa-question"></i>
+                    Fazer Pergunta
+                </button>
+                <button class="action-btn">
+                    <i class="fas fa-chart-bar"></i>
+                    Ver Relatório
+                </button>
+                <a href=""><button class="action-btn">
+                    <i class="fas fa-cog"></i>
+                    Configurações
+                </button></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="about-content">
+            <h1>Sobre o DISCUS</h1>
+            <p class="about-description">
+                O DISCUS nasceu da necessidade de transformar a educação tradicional, 
+                oferecendo suporte personalizado e ferramentas inovadoras para estudantes 
+                que enfrentam desafios no aprendizado.
+            </p>
+            
+            <div class="mission-vision">
+                <div class="mission">
+                    <h3><i class="fas fa-bullseye"></i> Nossa Missão</h3>
+                    <p>Democratizar o acesso a uma educação de qualidade, complementando o ensino formal com tecnologia e personalização.</p>
+                </div>
+                <div class="vision">
+                    <h3><i class="fas fa-eye"></i> Nossa Visão</h3>
+                    <p>Ser a principal plataforma educacional que prepara estudantes para os desafios do século XXI.</p>
+                </div>
+            </div>
+
+            <div class="impact-numbers">
+                <div class="impact-card">
+                    <span class="impact-number">10,000+</span>
+                    <span class="impact-label">Estudantes Ativos</span>
+                </div>
+                <div class="impact-card">
+                    <span class="impact-number">500+</span>
+                    <span class="impact-label">Professores Parceiros</span>
+                </div>
+                <div class="impact-card">
+                    <span class="impact-number">95%</span>
+                    <span class="impact-label">Satisfação dos Usuários</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="contact-content">
+            <h1>Entre em Contato</h1>
+            <p>Tem dúvidas ou sugestões? Estamos aqui para ajudar!</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contato@DISCUS.com.br</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(11) 9999-9999</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>São Paulo, SP - Brasil</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu email" required>
+                    <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Enviar Mensagem
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="moduleModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <div class="fab" onclick="openTutor()">
+        <i class="fas fa-robot"></i>
+    </div>
+
+    <div id="tutorChat" class="tutor-chat">
+        <div class="chat-header">
+            <h4><i class="fas fa-robot"></i> Tutor Virtual</h4>
+            <button onclick="closeTutor()">&times;</button>
+        </div>
+        <div class="chat-messages">
+            <div class="message bot-message">
+                <p>Olá! Sou seu tutor virtual. Como posso ajudar você hoje?</p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Digite sua pergunta..." id="chatInput">
+            <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="meu.js"></script>
+    <script src="buton.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
